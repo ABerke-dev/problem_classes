@@ -1,0 +1,13 @@
+﻿category,set,none,reference,transform,use
+composition,real,0.05,0.18,0.5,0.28
+context_meaning,real,0.0,0.95,0.05,0.0
+form_geometry,real,0.22,0.0,0.78,0.0
+function_ergonomics,real,0.2,0.0,0.7,0.1
+structure_technology,real,0.25,0.0,0.75,0.0
+visual_material,real,0.2,0.0,0.8,0.0
+composition,control,0.0,0.18,0.52,0.3
+context_meaning,control,0.0,0.85,0.1,0.05
+form_geometry,control,0.12,0.0,0.88,0.0
+function_ergonomics,control,0.05,0.0,0.88,0.08
+structure_technology,control,0.3,0.0,0.7,0.0
+visual_material,control,0.4,0.02,0.57,0.0

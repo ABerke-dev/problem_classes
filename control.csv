@@ -1,0 +1,241 @@
+﻿participant,inspiration,final,category,label,evidence,judge_model
+image1,AI_01.png,Marta Reis.jpg,form_geometry,transform,wave-like volume becomes radiating petal forms around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_01.png,Marta Reis.jpg,composition,reference,off-centre figure focal point becomes symmetrical central light focal point,nvidia/nemotron-3.5-super-vl:free
+image1,AI_01.png,Marta Reis.jpg,visual_material,transform,warm glowing linear texture becomes matte pink surface with central warm light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_01.png,Marta Reis.jpg,function_ergonomics,use,viewer stands to observe immersive light environment becomes pendant light providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_01.png,Marta Reis.jpg,context_meaning,reference,digital technological aesthetic becomes organic nature-inspired flower aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_01.png,Marta Reis.jpg,structure_technology,none,hidden assembly of light sources becomes visible suspended rigid petal attachment,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,form_geometry,transform,Curved radiating petals replace flowing wave volume around central figure,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,composition,transform,Symmetric petal arrangement replaces balanced asymmetry around central figure,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,visual_material,reference,Glowing light concept echoed with matte dusty pink and warm yellow,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,function_ergonomics,transform,Human-scale immersive space becomes pendant light for downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,context_meaning,reference,Futuristic journey concept echoed as organic blooming flower aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_02.png,Marta Reis.jpg,structure_technology,none,Projection mapping or LED arrays not present in suspended rigid fixture,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,form_geometry,transform,central radiating elements changed from light streaks to curved petals,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,composition,use,central focal point with symmetrical radial arrangement around vertical axis,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,visual_material,transform,warm glowing tones persist but palette shifts from red/orange to dusty pink/yellow,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,function_ergonomics,transform,dynamic human pose becomes static light fixture with downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,context_meaning,reference,energy and emergence abstracted into blooming flower or sunburst metaphor,nvidia/nemotron-3.5-super-vl:free
+image1,AI_03.png,Marta Reis.jpg,structure_technology,none,long-exposure photography replaced by suspended rigid petal construction,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,form_geometry,transform,Curved wall becomes radiating petals around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,composition,transform,Flowing lines become symmetrical radial arrangement around center,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,visual_material,none,Cool cyan linear glow replaced by matte pink warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,function_ergonomics,transform,Tactile wall interaction becomes pendant light diffusion,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,context_meaning,reference,Natural inspiration shifts from water/wind to blooming flower,nvidia/nemotron-3.5-super-vl:free
+image1,AI_04.png,Marta Reis.jpg,structure_technology,none,Embedded flexible lighting replaced by suspended rigid petal fixture,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,form_geometry,transform,Vertical strands become curved petals radiating from a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,composition,reference,Central focus remains but arrangement shifts from asymmetrical to symmetrical,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,visual_material,none,Bright green strands on dark background replaced by matte pink fixture with warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,function_ergonomics,transform,Physical touch interaction becomes passive downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,context_meaning,reference,Immersive atmosphere echoed as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_05.png,Marta Reis.jpg,structure_technology,transform,Suspended flexible strands become rigid petals attached to a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,form_geometry,transform,Concentric wavy lines become radiating curved petals around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,composition,transform,Figures walking toward vanishing point become symmetrical petals around central axis,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,visual_material,transform,Multicoloured projected lights become warm yellow light on matte dusty pink surface,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,function_ergonomics,transform,Guiding pedestrian movement becomes providing downward illumination as pendant light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,context_meaning,reference,Magical immersive light installation echoes organic nature-inspired blooming flower aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_06.png,Marta Reis.jpg,structure_technology,transform,Hidden projectors and canopy-mounted lights become suspended fixture with rigid petal elements,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,form_geometry,transform,Vertical poles transformed into radiating curved petals around a central dome,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,composition,transform,Linear corridor composition transformed into radial symmetry around a central axis,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,visual_material,none,Orange-red wet reflections replaced by matte dusty pink and warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,function_ergonomics,transform,Pedestrian corridor transformed into pendant light providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,context_meaning,reference,Immersive natural atmosphere echoed through organic flower-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_07.png,Marta Reis.jpg,structure_technology,transform,Ground-anchored vertical poles transformed into suspended rigid petal elements,nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,form_geometry,transform,"Rectangular volumes and wavy lines become dome, disc, and radiating petals",nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,composition,use,Central illuminated focal point with surrounding elements arranged around it,nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,visual_material,transform,Purple-blue ambient lighting becomes warm yellow light on pink surface,nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,function_ergonomics,transform,Lounging and media viewing become pendant light providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,context_meaning,reference,Futuristic domestic identity echoes as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_08.png,Marta Reis.jpg,structure_technology,transform,Integrated wall lighting becomes suspended fixture with rigid petal elements,nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,form_geometry,transform,"rounded volumes and rectangles become dome, disc, and radiating petals",nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,composition,transform,balanced lower-center arrangement becomes symmetrical radial composition around vertical axis,nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,visual_material,transform,warm orange-pink glow and soft surfaces become matte dusty pink fixture with warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,function_ergonomics,transform,multi-person seating becomes downward illumination for ambient space,nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,context_meaning,reference,contemporary residential warmth echoed as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_09.png,Marta Reis.jpg,structure_technology,transform,modular cushions and wall-integrated lights become suspended rigid petals on central disc,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,form_geometry,none,Rectangular enclosure and circular table replaced by dome and radiating petals,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,composition,transform,Symmetrical grouping around central illuminated focal point retained in new object,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,visual_material,none,Cool cyan fabric and metal replaced by matte dusty pink and warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,function_ergonomics,none,Seated interaction at table replaced by pendant light illumination,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,context_meaning,reference,High-tech calming atmosphere echoed as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,AI_10.png,Marta Reis.jpg,structure_technology,none,Backlit wall and central column base replaced by suspended rigid petal fixture,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,form_geometry,transform,curved lines and circles become radiating petal shapes around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,composition,transform,rhythmic flow becomes symmetrical radial arrangement around a central focal point,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,visual_material,transform,deep blue ambient lighting becomes warm yellow light on matte dusty pink surface,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,function_ergonomics,transform,interactive floor guidance becomes pendant light providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,context_meaning,reference,futuristic digital installation echoes as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_01.jpg,Marta Reis.jpg,structure_technology,transform,projection mapping on surfaces becomes suspended rigid petal fixture attached to central disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,form_geometry,transform,rectangular grid wall becomes radiating curved petals around a central dome,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,composition,transform,horizontal side wall becomes symmetrical radial arrangement around central axis,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,visual_material,none,purple orange yellow gradients replaced by matte dusty pink and warm yellow,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,function_ergonomics,transform,interactive wall touch becomes passive pendant light diffusion,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,context_meaning,reference,immersive sensory installation echoes as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_02.png,Marta Reis.jpg,structure_technology,transform,modular panels on backing become rigid petals attached to suspended central disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,form_geometry,transform,radiating lines become curved petals around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,composition,reference,central focal point and radial arrangement echo inspiration,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,visual_material,none,dusty pink matte surface differs from dark clothing and hazy light,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,function_ergonomics,transform,raised hands interacting with light become pendant light diffusion,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,context_meaning,reference,wonder and reverence become organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_03.jpg,Marta Reis.jpg,structure_technology,transform,backlighting behind figure becomes central light source in fixture,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,form_geometry,transform,"central figure becomes central dome, branching lines become radiating petals",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,composition,reference,"central focal point retained, radial symmetry replaces foot-originated radiation",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,visual_material,none,"no dark clothing, sneakers, grey-blue wall, or white-purple projected light",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,function_ergonomics,none,interactive reactive floor replaced by static pendant light fixture,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,context_meaning,reference,immersive digital installation echoed as organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_04.png,Marta Reis.jpg,structure_technology,none,projector and sensors replaced by suspended rigid petal fixture,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,form_geometry,none,No stacked panels or curved projection wall; dome and radiating petals differ entirely,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,composition,transform,"Central focal point echoes solitary figure against dominant wall, but symmetry replaces asymmetry",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,visual_material,none,"Matte dusty pink and warm yellow light replace dark floors and green, white, blue projections",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,function_ergonomics,transform,Downward illumination replaces standing observation; light diffusion replaces immersive viewing,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,context_meaning,reference,"Contemplative individual experience echoes in organic, nature-inspired aesthetic",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_05.jpg,Marta Reis.jpg,structure_technology,none,Suspended rigid petals replace projection mapping and darkened enclosure,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,form_geometry,transform,curved ceiling becomes dome and radiating petal forms,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,composition,reference,"central focal point retained, symmetry replaces framing columns",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,visual_material,none,black white metallic grey replaced by dusty pink and warm yellow,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,function_ergonomics,transform,lying platform becomes pendant light providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,context_meaning,reference,immersive calm atmosphere echoed in organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_06.jpg,Marta Reis.jpg,structure_technology,transform,supporting columns become suspended disc with attached rigid petals,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,form_geometry,transform,Conical volumes become radiating petal shapes around a central disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,composition,transform,Asymmetrical human-scale arrangement becomes symmetrical radial composition,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,visual_material,none,Volumetric colored light beams replaced by matte pink surface and warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,function_ergonomics,transform,Interactive standing inside cone becomes passive pendant light diffusion,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,context_meaning,reference,Immersive gallery light art echoes in organic nature-inspired aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_07.jpg,Marta Reis.jpg,structure_technology,transform,Overhead projection fixtures become suspended rigid petal elements attached to disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,form_geometry,transform,"rectangular room and conical beam become dome, disc, and radiating petals",nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,composition,use,central illuminated element remains primary focal point,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,visual_material,transform,white walls and dark floor become matte dusty pink fixture with warm yellow light,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,function_ergonomics,transform,immersive walk-through installation becomes pendant light for downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,context_meaning,reference,water-like natural patterns become blooming flower or sunburst organic aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_08.jpg,Marta Reis.jpg,structure_technology,transform,ceiling-mounted projector becomes suspended fixture with rigid petal elements attached to disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,form_geometry,transform,cup-like array becomes dome with radiating petals,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,composition,reference,central symmetry and focal point replace overhead array,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,visual_material,transform,deep red translucent cups become matte dusty pink petals,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,function_ergonomics,transform,visual observation becomes functional pendant lighting,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,context_meaning,reference,light and shadow concept echoed in organic flower aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_09.jpg,Marta Reis.jpg,structure_technology,transform,thin threads holding cups become rigid petals on disc,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,form_geometry,transform,Conical upward beams become downward radiating curved petals around a central dome,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,composition,use,Central source anchors symmetrical vertical arrangement with brightest intensity at center,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,visual_material,transform,Warm gradient lighting shifts to warm yellow center on matte dusty pink surface,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,function_ergonomics,transform,Floor-based upward projector becomes suspended pendant providing downward illumination,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,context_meaning,reference,Organic natural inspiration continues from abstract light to blooming flower aesthetic,nvidia/nemotron-3.5-super-vl:free
+image1,WEB_10.jpg,Marta Reis.jpg,structure_technology,transform,Floor stand with cabling becomes suspended fixture with rigid petals attached to central disc,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,form_geometry,transform,Circular lily pads become circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,composition,transform,Symmetrical framing around head becomes diagonal split with upper and lower focal points,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,visual_material,transform,Green lily pads and water become dark platforms with multicoloured contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,function_ergonomics,transform,Passive floating becomes active seated meditation and reaching hand interaction,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,context_meaning,reference,Peaceful nature scene becomes mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_01.jpg,image1_final.jpg,structure_technology,transform,Visible brushstrokes become responsive surface technology with contour patterns,nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,form_geometry,none,"No tall rectangular window, curved sofa, or vertical bookshelf appear in B",nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,composition,reference,Balance between vertical and horizontal elements is echoed by diagonal split and focal points,nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,visual_material,none,"No wooden shelves, books, plain wall, or patterned rug appear in B",nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,function_ergonomics,transform,Seating for reclining becomes seated meditation posture; low shelves become touch interface,nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,context_meaning,transform,Comfortable living space becomes symbolic narrative of mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_02.jpg,image1_final.jpg,structure_technology,none,No hanging lamp cord or vertical bookshelf unit appear in B,nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,form_geometry,transform,Rectangular deck becomes circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,composition,use,Diagonal split balances upper and lower elements like deck and bank,nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,visual_material,none,"No weathered wood, water, rocks, or foliage appear in B",nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,function_ergonomics,transform,Seating for relaxation becomes meditation interface with touch control,nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,context_meaning,reference,Tranquility and escape echo as mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_03.jpg,image1_final.jpg,structure_technology,none,Wooden planks and slat construction have no counterpart in B,nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,form_geometry,transform,circular platforms replace irregular rock volumes and rectangular basin,nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,composition,transform,"diagonal split replaces left-right anchoring, focal point retained",nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,visual_material,transform,"contour lines replace rock, water, foliage textures; lighting becomes color",nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,function_ergonomics,transform,seated meditation and touch interface replace cushions and stone steps,nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,context_meaning,use,tranquil meditative atmosphere and human-environment interaction retained,nvidia/nemotron-3.5-super-vl:free
+image2,AI_04.jpg,image1_final.jpg,structure_technology,transform,responsive contour surface replaces stacked rocks and hidden water system,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,form_geometry,transform,rectangular room becomes circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,composition,transform,axial symmetry becomes diagonal split with balanced focal points,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,visual_material,transform,dark textured walls become dark platforms with multicolored contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,function_ergonomics,transform,immersion pool becomes seated meditation interface with reaching hand,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,context_meaning,reference,minimalist spa becomes symbolic mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_05.jpg,image1_final.jpg,structure_technology,transform,waterproof channels become responsive surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,form_geometry,none,No irregular cavern volume or hanging vines appear in B,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,composition,transform,Diagonal split replaces horizontal focal line while retaining figure-platform balance,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,visual_material,none,Teal water and rock are replaced by dark platforms with multicolored contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,function_ergonomics,transform,Seated figure remains but shifts from poolside relaxation to meditation interface,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,context_meaning,reference,Private relaxation echoes as mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_06.jpg,image1_final.jpg,structure_technology,none,Rock walls and mounted lights are replaced by responsive surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,form_geometry,transform,"circular platforms replace oval tub, concentric contours replace vertical strips",nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,composition,use,central focal point balanced by opposing elements on both sides,nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,visual_material,transform,dark surfaces with colored lines replace cool blue water and dark walls,nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,function_ergonomics,transform,seated posture and reaching hand replace wall-mounted faucet and hanging towels,nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,context_meaning,reference,serene atmosphere echoed as mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_07.jpg,image1_final.jpg,structure_technology,transform,responsive contour surface replaces recessed wall lighting,nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,form_geometry,transform,Rectangular desk becomes circular platforms; book/papers replaced by contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,composition,transform,Central figure retained but split diagonal background replaces left-side sunlight,nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,visual_material,none,"Wood, paper, fabric, leaves replaced by dark platforms with multicoloured contour lines",nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,function_ergonomics,transform,Seated writing at desk becomes seated meditation with touch-based interface,nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,context_meaning,reference,Quiet study echoes as meditative human-technology interaction,nvidia/nemotron-3.5-super-vl:free
+image2,AI_08.jpg,image1_final.jpg,structure_technology,transform,Stable horizontal desk surface becomes responsive contour-mapped platform,nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,form_geometry,transform,circular platforms replace rectangular frame and bent legs with concentric contours,nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,composition,transform,"diagonal split replaces corner light source, focal point shifts to upper figure",nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,visual_material,transform,"peeling wall becomes multicolored contour lines, clothing simplified to white and grey",nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,function_ergonomics,transform,"wall support becomes meditation posture, localized bulb becomes touch-based interface",nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,context_meaning,transform,rustic rest becomes mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_09.jpg,image1_final.jpg,structure_technology,transform,electrical cord and mounted frame become responsive projection or pressure-sensitive surface,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,form_geometry,transform,circular platforms replace rectangular window and rug,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,composition,use,diagonal split balances upper figure and lower hand,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,visual_material,transform,multicoloured contour lines replace warm light and wood,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,function_ergonomics,transform,seated posture shifts from art work to meditation interface,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,context_meaning,reference,creative workspace echoes mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,AI_10.jpg,image1_final.jpg,structure_technology,none,no corresponding window frame or shelves in B,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,form_geometry,transform,Rectangular windows and rug become circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,composition,transform,Symmetrical centered layout becomes diagonal split with balanced focal points,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,visual_material,transform,Green plants and white candles become multicolored contour lines on dark platforms,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,function_ergonomics,use,Seated cross-legged posture for meditation remains central,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,context_meaning,use,Calm wellness and mindfulness themes persist with human-environment connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_01.jpeg,image1_final.jpg,structure_technology,transform,White-framed window panes become responsive contour surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,form_geometry,transform,"circular platforms replace curved arm and tub, contour lines replace linear stems",nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,composition,use,diagonal split balances upper figure and lower hand like original diagonal arm,nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,visual_material,transform,dark surfaces with multicolored lines replace soft skin tones and milky water,nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,function_ergonomics,transform,seated posture and reaching hand shift from bathing to touch-based interface,nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,context_meaning,reference,self-care ritual becomes mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_02.jpeg,image1_final.jpg,structure_technology,transform,solid tub becomes responsive contour surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,form_geometry,transform,organic curves become circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,composition,transform,diagonal split replaces sofa and doorway as focal arrangement,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,visual_material,transform,warm orange lighting becomes multicolored contour lines on dark surfaces,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,function_ergonomics,transform,casual seating and lighting become meditation interface and touch control,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,context_meaning,reference,domestic vintage identity shifts to mindfulness and human-technology themes,nvidia/nemotron-3.5-super-vl:free
+image2,Web_03.jpeg,image1_final.jpg,structure_technology,transform,flat panel cabinet assembly becomes responsive contour surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,form_geometry,transform,Rectangular frames and cushion become circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,composition,use,Central seated figure remains focal point with balanced surrounding elements,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,visual_material,transform,Pink cushion and beige clothing become dark platforms with multicolored contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,function_ergonomics,use,Seated posture supports meditation or interaction interface,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,context_meaning,reference,Meditation and calm atmosphere echoed as mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_04.jpeg,image1_final.jpg,structure_technology,transform,Window frames and ledge become responsive surface technology with contour patterns,nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,form_geometry,transform,circular shapes appear as platforms instead of headphones and teapot,nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,composition,use,diagonal arrangement divides the image into weighted sections,nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,visual_material,none,"no white surfaces, glass, wood, or condensation appear",nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,function_ergonomics,transform,interaction shifts from audio and drinking to touch-based meditation interface,nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,context_meaning,reference,calm routine becomes abstract mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_05.jpg,image1_final.jpg,structure_technology,transform,hidden components become visible responsive contour surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,form_geometry,transform,Curved rail becomes circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,composition,use,Diagonal division leads eye to central figure,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,visual_material,transform,Metallic rail and dark water become dark platforms with multicolored contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,function_ergonomics,transform,Physical support for water entry becomes meditation interface and touch control,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,context_meaning,reference,Leisure and solitude echo mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_06.jpeg,image1_final.jpg,structure_technology,transform,Bolted metal tubes become responsive pressure-sensitive or projection surface,nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,form_geometry,none,No horizontal rectangle or cylindrical rolled towels appear in B,nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,composition,transform,Rhythmic arrangement of elements is reorganized into diagonal split composition,nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,visual_material,none,"No white textured towels, beige tiles, or blue-green water appear in B",nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,function_ergonomics,transform,Surface for placing items becomes touch-based control interface for meditation,nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,context_meaning,reference,Relaxation and self-care echo as mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_07.jpeg,image1_final.jpg,structure_technology,none,No tiled surfaces or window frame appear in B,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,form_geometry,transform,Curved enclosure becomes circular platforms; horizontal body becomes seated figure,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,composition,use,Diagonal split and upper-right focal point retained,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,visual_material,transform,Monochromatic blue becomes multicoloured contour lines on dark surfaces,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,function_ergonomics,transform,Sensory deprivation becomes meditation and touch-based interaction,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,context_meaning,transform,Spa isolation becomes mindfulness and human-technology connection,nvidia/nemotron-3.5-super-vl:free
+image2,Web_08.jpeg,image1_final.jpg,structure_technology,transform,Molded shell becomes responsive contour surface technology,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,form_geometry,transform,Rectangular blanket and diagonal body become circular platforms with contour lines,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,composition,transform,Lower foreground figure becomes diagonal split with upper and lower focal points,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,visual_material,transform,Red-black blanket pattern becomes multicoloured contour lines on dark surfaces,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,function_ergonomics,transform,Lying on blanket for rest becomes seated meditation with touch-based control,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,context_meaning,reference,Leisure in nature echoes mindfulness and human-environment interaction,nvidia/nemotron-3.5-super-vl:free
+image2,Web_09.jpeg,image1_final.jpg,structure_technology,transform,Woven textile blanket becomes responsive pressure-sensitive or projection surface,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,form_geometry,transform,circular platforms replace flat terrace and balustrade with concentric contours,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,composition,transform,diagonal split replaces horizontal horizon; figure and hand balance left-right,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,visual_material,transform,dark platforms with multicoloured contours replace white railing and grey concrete,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,function_ergonomics,transform,meditation and touch interface replace moving or dancing on terrace,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,context_meaning,transform,mindfulness and human-technology connection replace leisure at sunset,nvidia/nemotron-3.5-super-vl:free
+image2,Web_10.jpeg,image1_final.jpg,structure_technology,transform,responsive contour surface replaces concrete slab and balustrade barrier,nvidia/nemotron-3.5-super-vl:free

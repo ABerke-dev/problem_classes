@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inspiration to final project</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#fafafa;color:#222}
+header{padding:10px 16px;background:#fff;border-bottom:1px solid #ddd}
+button.tab{padding:6px 14px;margin-right:6px;border:1px solid #999;background:#fff;border-radius:6px;cursor:pointer}
+button.tab.on{background:#222;color:#fff}
+#wrap{position:relative;display:grid;grid-template-columns:1fr 360px 1fr;gap:30px;padding:16px 24px}
+#svg{position:absolute;left:0;top:0;pointer-events:none}
+.col{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-content:start}
+.card{background:#fff;border:2px solid #ccc;border-radius:6px;padding:4px;cursor:pointer;text-align:center;font-size:11px}
+.card.sel{border-color:#000;box-shadow:0 0 0 2px #000}
+.card img{width:100%;height:90px;object-fit:cover;display:block}
+.sq{display:flex;gap:2px;justify-content:center;margin-top:3px}
+.sq i{width:14px;height:8px;display:block}
+.tags{font-size:10px;color:#555;margin-top:3px;line-height:1.3;min-height:26px}
+#C{align-self:center;text-align:center;font-weight:bold;cursor:pointer}
+#C img{width:100%;border:3px solid #000;display:block}
+#C.sel img{box-shadow:0 0 0 3px #1b9e77}
+h4.side{grid-column:1/3;margin:0}
+#panel{margin:0 24px 24px;padding:14px;background:#fff;border:1px solid #ddd;border-radius:6px;min-height:80px}
+.row{padding:10px 0;border-top:1px solid #eee;font-size:13px}
+.row.none{color:#888;font-size:12px;padding:5px 0}
+.chip{display:inline-block;padding:2px 8px;border-radius:10px;color:#fff;font-size:12px}
+.def{color:#777;font-size:11px}
+.sum{background:#f3f3f3;padding:8px 10px;border-radius:6px;margin-bottom:8px;font-size:13px}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0}
+.cmp div{background:#fafafa;border:1px solid #eee;border-radius:6px;padding:6px 8px;font-size:12px}
+.cmp b{display:block;font-size:11px;color:#555;margin-bottom:2px}
+.why{font-size:12px;margin-top:4px}
+.legend span{margin-right:14px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <span id="tabs"></span>
+  <span class="legend" style="margin-left:20px">
+    <span><span class="chip" style="background:#1b9e77">use</span> kept almost unchanged</span>
+    <span><span class="chip" style="background:#d95f02">transform</span> changed to fit the new design</span>
+    <span><span class="chip" style="background:#7570b3">reference</span> only the idea</span>
+    <span><span class="chip" style="background:#bdbdbd">none</span> no link</span>
+  </span>
+</header>
+<div id="app"></div>
+<div id="panel">Click an inspiration image or the final project.</div>
+
+<script src="data.js"></script>
+<script>
+const DATA = P.data, CATS = Object.keys(P.cats), DEFS = P.cats;
+const COL = {use:"#1b9e77", transform:"#d95f02", reference:"#7570b3", none:"#bdbdbd"};
+const RANK = {use:3, transform:2, reference:1, none:0};
+const app = document.getElementById("app"), panel = document.getElementById("panel");
+let cur = null;
+
+const nice = c => c.replace(/_/g, " ");
+const clean = t => (t || "").replace(/Inferred:\s*/g, "");
+function best(rel){
+  let b = "none";
+  CATS.forEach(c => { const l = (rel[c]||{}).label; if ((RANK[l]||0) > RANK[b]) b = l; });
+  return b;
+}
+function linked(rel){
+  return CATS.filter(c => (RANK[(rel[c]||{}).label]||0) > 0)
+             .sort((a,b) => RANK[rel[b].label] - RANK[rel[a].label]);
+}
+function chip(l){ return `<span class="chip" style="background:${COL[l]||'#999'}">${l||'n/a'}</span>`; }
+
+function card(it, key){
+  const sq = CATS.map(c => `<i style="background:${COL[(it.rel[c]||{}).label]||'#eee'}"></i>`).join("");
+  const L = linked(it.rel);
+  const tip = L.map(c => nice(c) + " (" + it.rel[c].label + ")").join(", ") || "no link found";
+  const tags = L.length ? L.map(c => nice(c)).join(", ") : "no link found";
+  return `<div class="card" data-k="${key}" title="${tip}"><img src="${it.img}"><div>${it.name}</div>
+    <div class="sq">${sq}</div><div class="tags">${tags}</div></div>`;
+}
+
+function render(part){
+  cur = part;
+  document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.p === part));
+  const d = DATA[part];
+  app.innerHTML = `<div id="wrap"><svg id="svg"></svg>
+    <div class="col"><h4 class="side">AI inspirations</h4>${d.ai.map((it,i)=>card(it,"ai-"+i)).join("")}</div>
+    <div id="C" data-k="final"><img src="${d.final.img}">FINAL PROJECT</div>
+    <div class="col"><h4 class="side">Web inspirations</h4>${d.web.map((it,i)=>card(it,"web-"+i)).join("")}</div></div>`;
+  app.querySelectorAll("[data-k]").forEach(el => el.onclick = () => select(el.dataset.k));
+  panel.innerHTML = "Click an inspiration image or the final project.";
+  const imgs = [...app.querySelectorAll("img")];
+  Promise.all(imgs.map(i => i.decode().catch(()=>{}))).then(draw);
+}
+
+function items(){
+  const d = DATA[cur];
+  return [...d.ai.map((it,i)=>({k:"ai-"+i, it, side:"L", idx:i, n:d.ai.length})),
+          ...d.web.map((it,i)=>({k:"web-"+i, it, side:"R", idx:i, n:d.web.length}))];
+}
+
+function draw(){
+  const wrap = document.getElementById("wrap"), svg = document.getElementById("svg");
+  const wr = wrap.getBoundingClientRect(), fr = document.querySelector("#C img").getBoundingClientRect();
+  svg.setAttribute("width", wr.width); svg.setAttribute("height", wr.height);
+  let h = "<defs>" + ["use","transform","reference"].map(l =>
+    `<marker id="m-${l}" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 z" fill="${COL[l]}"/></marker>`).join("") + "</defs>";
+  items().forEach(o => {
+    const b = best(o.it.rel); if (b === "none") return;
+    const r = document.querySelector(`[data-k="${o.k}"]`).getBoundingClientRect();
+    const left = o.side === "L";
+    const x1 = (left ? r.right : r.left) - wr.left, y1 = r.top + r.height/2 - wr.top;
+    const x2 = (left ? fr.left : fr.right) - wr.left;
+    const y2 = fr.top - wr.top + fr.height * (o.idx + 1) / (o.n + 1);
+    const mx = (x1 + x2) / 2;
+    h += `<path data-p="${o.k}" d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" fill="none" stroke="${COL[b]}" stroke-width="${1+linked(o.it.rel).length*0.7}" opacity="0.55" marker-end="url(#m-${b})"/>`;
+  });
+  svg.innerHTML = h;
+}
+
+function select(k){
+  document.querySelectorAll("[data-k]").forEach(el => el.classList.toggle("sel", el.dataset.k === k));
+  document.querySelectorAll("#svg path[data-p]").forEach(p =>
+    p.setAttribute("opacity", k === "final" ? 0.7 : (p.dataset.p === k ? 1 : 0.07)));
+  const d = DATA[cur];
+
+  if (k === "final") {
+    let h = `<h3>Final project: what came from where?</h3>`;
+    CATS.forEach(c => {
+      const from = items().map(o => ({n:o.it.name, l:(o.it.rel[c]||{}).label, e:(o.it.rel[c]||{}).evidence}))
+        .filter(x => RANK[x.l] > 0).sort((a,b) => RANK[b.l]-RANK[a.l]);
+      h += `<div class="row"><b>${nice(c)}</b> <span class="def">${DEFS[c]}</span>
+        <div class="cmp"><div><b>What the final shows</b>${clean(d.final.desc[c])}</div>
+        <div><b>Inspirations linked to this category (${from.length})</b>
+        ${from.map(x => `${chip(x.l)} <b style="display:inline">${x.n}</b>: ${x.e}`).join("<br>") || "No link found."}</div></div></div>`;
+    });
+    panel.innerHTML = h; return;
+  }
+
+  const o = items().find(x => x.k === k), it = o.it, L = linked(it.rel);
+  let h = `<h3>${it.name} &rarr; final project</h3>`;
+  h += `<div class="sum">${L.length
+    ? "<b>This image inspired the final in:</b> " + L.map(c => `${nice(c)} ${chip(it.rel[c].label)}`).join(" &nbsp; ")
+    : "No category with a link was found for this image."}</div>`;
+  L.concat(CATS.filter(c => !L.includes(c))).forEach(c => {
+    const r = it.rel[c] || {};
+    if (!(RANK[r.label] > 0)) {
+      h += `<div class="row none"><b>${nice(c)}</b> ${chip(r.label)} no link found</div>`;
+      return;
+    }
+    h += `<div class="row"><b>${nice(c)}</b> ${chip(r.label)} <span class="def">${DEFS[c]}</span>
+      <div class="cmp"><div><b>What this inspiration shows</b>${clean(it.desc[c])}</div>
+      <div><b>What the final shows</b>${clean(d.final.desc[c])}</div></div>
+      <div class="why"><b>Why the judge linked them:</b> ${r.evidence || ""}</div></div>`;
+  });
+  panel.innerHTML = h;
+}
+
+const tabs = document.getElementById("tabs");
+Object.keys(DATA).forEach(p => {
+  const b = document.createElement("button");
+  b.className = "tab"; b.dataset.p = p; b.textContent = p; b.onclick = () => render(p);
+  tabs.appendChild(b);
+});
+window.onresize = () => cur && draw();
+render(Object.keys(DATA)[0]);
+</script>
+</body>
+</html>
